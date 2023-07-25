@@ -36,3 +36,11 @@ O/P :-
 
 
 --------------------------Dictionary---------------------------
+
+mydict = {'A':"Hello",'B':"Python",'c':"Program"}
+print(mydict)
+
+O/P :-
+{'A': 'Hello', 'B': 'Python', 'c': 'Program'}
+
+--------------------------Dictionary---------------------------
