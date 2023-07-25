@@ -18,5 +18,15 @@ obj.show()
 O/P :-
 My firt python class....
 
----------------------------create class-------------------------------
+---------------------------take static input-------------------------------
+class abc :
+    def __init__(self,name):
+        self.name=name
+    def show(self):
+        print("Welcome..",self.name)
+        
+obj=abc("Hemali")
+obj.show()
 
+O/P :-
+Welcome.. Hemali
