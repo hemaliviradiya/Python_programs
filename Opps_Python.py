@@ -30,3 +30,24 @@ obj.show()
 
 O/P :-
 Welcome.. Hemali
+
+---------------------------function call in class-------------------------------
+class abc :
+    
+    def show(self):
+        print("Welcome..")
+        
+class xyz(abc):
+    def disp(self):
+        print("xyz class method..")
+        
+#obj=abc("Hemali")
+obj1=xyz()
+obj1.show()
+obj1.disp()
+
+O/P :-
+Welcome..
+xyz class method..
+
+---------------------------take static input-------------------------------
