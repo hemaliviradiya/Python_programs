@@ -50,4 +50,23 @@ O/P :-
 Welcome..
 xyz class method..
 
----------------------------take static input-------------------------------
+---------------------------function override method-------------------------------
+
+class abc :
+    
+    def show(self):
+        print("Welcome..")
+        
+class xyz(abc):
+    def show(self):
+        print("xyz class method..")
+        
+#obj=abc("Hemali")
+obj1=xyz()
+obj1.show()
+
+O/P :-
+xyz class method..
+
+---------------------------function override method-------------------------------
+
